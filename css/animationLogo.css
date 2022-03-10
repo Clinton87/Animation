@@ -1,1 +1,24 @@
+@keyframes imageAnimate {
+    0% {transform: rotate(0deg);
+        border-radius: 100%;}
+    50% {transform: rotate(-30deg);
+        filter: hue-rotate(-200deg);}
+    100% {transform: rotate(30deg);
+          border-radius: 0%;}
+}
 
+img     {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: imageAnimate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.logo:hover   {
+    animation: none;
+    border-radius: 100%;
+}
