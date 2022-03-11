@@ -1,13 +1,11 @@
-@keyframes imageAnimate {
-    0% {transform: rotate(0deg);
-        border-radius: 100%;}
-    50% {transform: rotate(-30deg);
-        filter: hue-rotate(-200deg);}
-    100% {transform: rotate(30deg);
-          border-radius: 20%;}
+.logo     {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
 }
 
-img     {
+.logo:hover   {
+    border-radius: 100%;
     width: 100px;
     height: 100px;
     background-color: red;
@@ -18,7 +16,11 @@ img     {
     animation-direction: alternate;
 }
 
-.logo:hover   {
-    animation: none;
-    border-radius: 100%;
+@keyframes imageAnimate {
+    0% {transform: rotate(0deg);
+        border-radius: 100%;}
+    50% {transform: rotate(-30deg);
+        filter: hue-rotate(-200deg);}
+    100% {transform: rotate(30deg);
+          border-radius: 20%;}
 }
