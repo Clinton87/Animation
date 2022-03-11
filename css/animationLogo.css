@@ -4,7 +4,7 @@
     50% {transform: rotate(-30deg);
         filter: hue-rotate(-200deg);}
     100% {transform: rotate(30deg);
-          border-radius: 0%;}
+          border-radius: 20%;}
 }
 
 img     {
@@ -12,7 +12,7 @@ img     {
     height: 100px;
     background-color: red;
     animation-name: imageAnimate;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction: alternate;
